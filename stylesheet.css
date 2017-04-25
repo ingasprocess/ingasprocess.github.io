@@ -1,0 +1,261 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+	color: #000;
+	font: 14px arial,sans-serif;
+	height: 100%;
+	min-width: 1000px;
+	letter-spacing: 0.1em;
+    
+}
+
+.main {
+	background-image: url("inga-ja.gif");
+    background-color: #FFFFFF;
+	background-repeat:no-repeat;
+	background-size: 120%;
+	width:auto;
+	height: 100%;
+	background-position:center;
+}
+
+#panel, #flip {
+    padding: 2px 11px 0 15px;
+    text-align: center;
+	float: left;
+    text-transform: uppercase;
+    font: 14px/34px 'pf-din-text-comp-pro-regular', arial,sans-serif;
+    color: #000;
+    border: 2px solid #000;
+    text-decoration: none;
+    background: none;
+    margin: 0;
+    letter-spacing: 0.4em;
+	cursor: pointer;
+}
+#panel2, #flip2 {
+    padding: 2px 11px 0 15px;
+    text-align: center;
+	float: center;
+    text-transform: uppercase;
+    font: 14px/34px 'pf-din-text-comp-pro-regular', arial,sans-serif;
+    color: #000;
+    border: 2px solid #000;
+    text-decoration: none;
+    background: none;
+    margin: 0;
+    letter-spacing: 0.4em;
+	cursor: pointer;
+}
+
+
+#flip:hover {
+    background: #000;
+    color: #fff;
+}
+#flip2:hover {
+    background: #000;
+    color: #fff;
+}
+
+#panel {
+    margin-top: 38px;
+	width: 240px;
+    height: 120px;
+    padding: 40px;
+    position: absolute;
+    background: #000;
+    display: none;
+}
+#panel2 {
+	width: 240px;
+    height: 120px;
+    padding: 40px;
+    position: relative;
+    background: #000;
+    display: none;
+    margin-bottom:-2px;
+}
+
+h1 {
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 0 18px;
+	color: #fff;
+	letter-spacing: 0.4em;
+	cursor: auto;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	margin: 0 0 18px;
+    color: #999;
+	letter-spacing: 0.4em;
+	cursor: auto;
+}
+
+.box-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+	cursor: pointer;
+}
+
+* {
+    outline: none;
+}
+
+div {
+    display: block;
+}
+
+html {
+    display: block;
+}
+
+.c-holder {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+}
+
+.position-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.position-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content-container .c-frame {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo {
+    background: url(logo.png) no-repeat;
+    width: 278px;
+    height: 80px;
+    background-size: 100% 100%;
+    display: block;
+    margin: 0 auto 56px;
+}
+
+.row-center {
+    position: relative;
+    overflow: hidden;
+}
+
+.row-center .r-holder {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.btn {
+    float: left;
+    text-transform: uppercase;
+    font: 14px/34px 'pf-din-text-comp-pro-regular', arial,sans-serif;
+    padding: 2px 11px 0 15px;
+    color: #000;
+    border: 2px solid #000;
+    text-decoration: none;
+    background: none;
+    margin: 0;
+    letter-spacing: 0.4em;
+}
+
+.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.social-box {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
+.social-box li {
+    float: left;
+}
+
+.social-box li + li {
+    margin: 0 0 0 18px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.button1 {
+	position: absolute;
+	left:1em;
+  width:140px;
+  text-align:center
+}
+.button2 {
+	position: absolute;
+	right:1em;
+  width:140px;
+  text-align:center
+  
+}
+
+.button3 {
+  position:absolute;
+  left:1em;
+  bottom:1em;
+  width:140px;
+  text-align:center
+}
+.button4 {
+	position: absolute;
+	right:1em;
+	bottom:1em;
+  width:140px;
+  text-align:center
+
+}
